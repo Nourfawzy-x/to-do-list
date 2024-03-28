@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.icon{
+    width:30px;
+    height: 30px;
+    background-color: yellow;
+    cursor: pointer;
+}
+.to-do-list{
+    width: 40%;
+}
+.input-form{
+    box-shadow: 14px -1px 30px 4px rgba(209,209,209,0.29) !important;
+ background-color: black;
+ color: white;
+ border: 2px solid rgb(59, 59, 59);
+ border-radius: 5px;
+}
+
+input::placeholder {
+    opacity: 0.6 !important;
+    color:rgb(228, 230, 228) !important;
+   
+  }
